@@ -24,8 +24,8 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainModule = 'com.example.mvcexample'
-    mainClass = 'com.example.mvcexample.HelloApplication'
+    mainModule = 'com.example.MVCCalculator'
+    mainClass = 'com.example.MVCCalculator.CalculatorMain.java'
 }
 
 javafx {

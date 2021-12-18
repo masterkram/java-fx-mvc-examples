@@ -1,4 +1,4 @@
-package MVCCalculator.view;
+package com.example.MVCCalculator.view;
 
 import javafx.event.EventHandler;
 import javafx.scene.Scene;

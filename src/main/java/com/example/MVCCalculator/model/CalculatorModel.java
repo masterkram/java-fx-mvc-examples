@@ -1,4 +1,4 @@
-package MVCCalculator.model;
+package com.example.MVCCalculator.model;
 
 public class CalculatorModel {
     private int calculationValue;
