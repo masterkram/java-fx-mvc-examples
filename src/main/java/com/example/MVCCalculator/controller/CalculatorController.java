@@ -1,8 +1,7 @@
-package MVCCalculator.controller;
+package com.example.MVCCalculator.controller;
 
-import MVCCalculator.model.CalculatorModel;
-import MVCCalculator.view.CalculatorGUI;
-import MVCCalculator.view.CalculatorView;
+import com.example.MVCCalculator.view.CalculatorView;
+import com.example.MVCCalculator.model.CalculatorModel;
 import javafx.event.Event;
 import javafx.event.EventHandler;
 
@@ -13,7 +12,6 @@ public class CalculatorController {
     public CalculatorController(CalculatorView view, CalculatorModel model) {
         this.view = view;
         this.model = model;
-
         this.view.addCalculationListener(new CalculatorHandler());
     }
 

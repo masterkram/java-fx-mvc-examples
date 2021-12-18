@@ -1,9 +1,9 @@
-package MVCCalculator;
+package com.example.MVCCalculator;
 
-import MVCCalculator.controller.CalculatorController;
-import MVCCalculator.model.CalculatorModel;
-import MVCCalculator.view.CalculatorCLI;
-import MVCCalculator.view.CalculatorGUI;
+import com.example.MVCCalculator.view.CalculatorGUI;
+import com.example.MVCCalculator.controller.CalculatorController;
+import com.example.MVCCalculator.model.CalculatorModel;
+import com.example.MVCCalculator.view.CalculatorCLI;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
